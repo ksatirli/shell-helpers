@@ -30,7 +30,7 @@ Once loaded, the helper's variables and functions are available to the script th
 
 ### Helpers
 
-The [Makefile](Makefile) includes several unsupported helper targets that _may_ be useful when developing in this repository.
+The repository currently includes the following helpers:
 
 | helper        | description                      | example                     |
 |---------------|----------------------------------|-----------------------------|
