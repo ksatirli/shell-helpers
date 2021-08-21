@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # load Colors helper
-# shellcheck source=../colors.sh
+# shellcheck disable=SC1091
 . ../colors.sh
 
 echo
