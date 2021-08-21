@@ -1,15 +1,19 @@
 #!/bin/sh
 
 # load Colors helper
-source ../colors.sh
+. ../colors.sh
 
-echo "\n\n${BOLD}STYLES:${RESET}"
+echo
+echo
+echo "${BOLD}STYLES:${RESET}"
 echo "  ${BOLD}BOLD${RESET}"
 echo "  ${DIM}DIM${RESET}"
 echo "  ${UNDERLINED}UNDERLINED${RESET}"
 echo "  ${INVERTED}INVERTED${RESET}"
 
-echo "\n\n${BOLD}FOREGROUND COLORS:${RESET}"
+echo
+echo
+echo "${BOLD}FOREGROUND COLORS:${RESET}"
 echo "  ${CLR_DEFAULT}CLR_DEFAULT${RESET}"
 echo "  ${CLR_BLACK}CLR_BLACK${RESET}"
 echo "  ${CLR_BLUE}CLR_BLUE${RESET}"
@@ -28,7 +32,9 @@ echo "  ${CLR_LT_MAGENTA}CLR_LT_MAGENTA${RESET}"
 echo "  ${CLR_LT_RED}CLR_LT_RED${RESET}"
 echo "  ${CLR_LT_YELLOW}CLR_LT_YELLOW${RESET}"
 
-echo "\n\n${BOLD}BACKGROUND COLORS:${RESET}"
+echo
+echo
+echo "${BOLD}BACKGROUND COLORS:${RESET}"
 echo "  ${BG_BLACK}BG_BLACK${RESET}"
 echo "  ${BG_BLUE}BG_BLUE${RESET}"
 echo "  ${BG_CYAN}BG_CYAN${RESET}"
