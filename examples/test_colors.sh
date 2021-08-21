@@ -1,6 +1,7 @@
 #!/bin/sh
 
 # load Colors helper
+# shellcheck source=../colors.sh
 . ../colors.sh
 
 echo
