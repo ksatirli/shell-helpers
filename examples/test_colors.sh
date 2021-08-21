@@ -1,4 +1,6 @@
-# load color
+#!/bin/sh
+
+# load Colors helper
 source ../colors.sh
 
 echo "\n\n${BOLD}STYLES:${RESET}"
